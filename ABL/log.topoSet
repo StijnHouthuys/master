@@ -1,0 +1,61 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  3.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 3.0.1-119cac7e8750
+Exec   : topoSet -parallel
+Date   : May 01 2016
+Time   : 20:49:48
+Host   : "Stijn"
+PID    : 24077
+Case   : /home/stijn/OpenFOAM/stijn-3.0.1/run/master/ABL
+nProcs : 4
+Slaves : 
+3
+(
+"Stijn.24078"
+"Stijn.24079"
+"Stijn.24080"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading topoSetDict
+
+Time = 0
+    mesh not changed.
+Created cellSet actuationDisk1CellSet
+    Applying source boxToCell
+    Adding cells with center within boxes 1((581850.5 4785805 1061) (581850.8 4785815 1071))
+    cellSet actuationDisk1CellSet now size 484
+Created cellZoneSet actuationDisk1
+    Applying source setToCellZone
+    Adding all cells from cellSet actuationDisk1CellSet ...
+    cellZoneSet actuationDisk1 now size 484
+Created cellSet actuationDisk2CellSet
+    Applying source boxToCell
+    Adding cells with center within boxes 1((581754 4785658 1065) (581754.4 4785668 1075))
+    cellSet actuationDisk2CellSet now size 484
+Created cellZoneSet actuationDisk2
+    Applying source setToCellZone
+    Adding all cells from cellSet actuationDisk2CellSet ...
+    cellZoneSet actuationDisk2 now size 484
+
+End
+
+Finalising parallel run

@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 3.0.1-119cac7e8750
 Exec   : decomposePar
-Date   : May 01 2016
-Time   : 20:49:27
+Date   : May 06 2016
+Time   : 11:18:24
 Host   : "Stijn"
-PID    : 24040
+PID    : 2779
 Case   : /home/stijn/OpenFOAM/stijn-3.0.1/run/master/ABL
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
@@ -29,7 +29,7 @@ Create mesh
 Calculating distribution of cells
 Selecting decompositionMethod hierarchical
 
-Finished decomposition in 0.02 s
+Finished decomposition in 0.01 s
 
 Calculating original mesh data
 
